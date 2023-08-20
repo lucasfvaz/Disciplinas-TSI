@@ -1,0 +1,42 @@
+ESTRUTURA DE DADOS
+Aluno: Lucas Felix Vaz
+RA: 2222620
+
+1 - O que são rotinas (procedimentos/funções)? 
+R: Podemos considerar que rotinas são blocos de código reutilizáveis que realiza algum tipo de tarefa e retornam um valor.
+
+2 - Qual  a  sintaxe  geral/genérica  para  se  definir  rotinas  (procedimentos/funções) 
+utilizando a linguagem C?
+R: Para definirmos uma rotina, temos na sua sintaxe: 
+Tipo_Retorno = Ele da a referencia de qual tipo de dado ele retornará, Seja ele um tipo pritivo ou um tipo de dado pré definido, seja ela uma outra estrutura ou um retorno void.
+Nome_Da_Rotina = É o nome ao qual a rotina será chamada.
+Parametros = Na rotina é possível criar uma lista de parametros ao qual ela pode receber, eles são opcionais, podendo existir ou não, para declara-los é necessário informar o tipo do parametro e o nome dos mesmos.
+Corpo da Rotina = Local onde é escrito o código que a rotina irá realizar.
+Retorno = A rotina pode usar return para retornar algum tipo de valor especifico.
+
+3 - Pesquise  quais  as  vantagens  em  se  utilizar  rotinas  (procedimentos/funções)  e 
+bibliotecas e justifique (discorra) sobre cada uma delas.
+R: VANTAGENS ROTINAS: 
+	Reutilização de código: Ultilizando rotinas, é possível encapsular conjuntos de instruções em um único bloco. Permitindo que ele seja reutilizado em algum momento.
+	Manutenção facilitada: Durante a execução do projeto erros podem ser identificados, sendo mais fácil de ser resolvido em todo projeto se for ultilizada rotinas.
+	Abstração: Com rotinas é possível abstrair alguma tarefa muito complexa de ser realizada.
+	Organização de Código: A aplicação pode ser dividida em rotinas, tornando o código mais legível.
+   VANTAGENS BIBLIOTECAS: 
+   	Boas Práticas: Ao adotar bibliotecas bem projetadas elas encapsulam boas práticas para a programação e desing.
+   	Economia de Recursos: Usando bibliotecas podemos evitar a criação de novas funcionalidades do zero, ganhando tempo e tendo seu esforço na hora de programar reduzido.
+   	Reutilizado em larga escala: as bibliotecas são conjuntos de rotinas já pré-definidas que realizam tarefas comuns, permitindo sua reutilização de rotinas já desenvolvidas e otimizadas.
+	Aumento de Produtividade: Pode separar partes especificas do projeto e dessa maneira desfocar dos minimos detalhes.
+	Manutenção Facilitada: Se você usa o código de uma biblioteca em várias outras partes do projeto, quando surgir algum bug você vai ter que ajustar em apenas um local.
+
+    DESVANTAGENS BIBLIOTECAS:
+	Incompatibilidade: algumas bibliotecas desenvolvidas em um ambiente especifico pode não ser compatível em outras plataformas.
+	Desempenho: o uso de bibliotecas pode gerar um overhead no código, fazendo seu desempenho cair.
+	Dependência: o uso de bibliotecas pode causar uma quebra no projeto se alguma delas forem removidas ou se ocorrer algum erro de manutenção.
+
+4- Pesquise quais as desvantagens em se utilizar rotinas
+(procedimentos/funções) e bibliotecas e justifique (discorra) sobre cada uma delas.
+Como se pode contornar ou eliminar tais desvantagens?
+R: Incompatibilidade: Verificar a documentação das plataformas antes de utilizar, criação de bibliotecas personalizadas ou pode optar realizar o uso de outras bibliotecas especificas para determinado ambiente.
+   Desempenho: Evitando chamadas redundantes, Loops desnecessários, fazer uso de paralelismo, utilizar ferramentas de otimização.
+   Dependência: Documentar todas as dependências do projeto, versionamento por semântica, usar bibliotecas estáticas, backup de dependências e empacotamento interno.
+		
