@@ -3,35 +3,35 @@
 #include "Biblioteca02.h"
 
 int main() {
-    int V, k;
-    std::cout << "Digite um valor inteiro V: ";
-    std::cin >> V;
+    int v, k;
+    std::cout << "Digite o primeiro valor inteiro: ";
+    std::cin >> v;
 
-    std::cout << "Digite um valor inteiro k: ";
+    std::cout << "Digite o segundo valor inteiro: ";
     std::cin >> k;
 
-    if (isMultiple(V, k)) {
-        std::cout << V << " é múltiplo de " << k << std::endl;
+    if (multiplo(v, k)) {
+        std::cout << v << " e multiplo de " << k << std::endl;
     } else {
-        std::cout << V << " não é múltiplo de " << k << std::endl;
+        std::cout << v << " nao e multiplo de " << k << std::endl;
     }
 
-    if (isPrime(V)) {
-        std::cout << V << " é primo" << std::endl;
+    if (primo(v)) {
+        std::cout << v << " e primo" << std::endl;
     } else {
-        std::cout << V << " não é primo" << std::endl;
+        std::cout << v << " nao e primo" << std::endl;
     }
 
-    if (isSuperstitiousPrime(V)) {
-        std::cout << V << " é primo supersticioso" << std::endl;
+    if (primoSuperticioso(v)) {
+        std::cout << v << " e primo supersticioso" << std::endl;
     } else {
-        std::cout << V << " não é primo supersticioso" << std::endl;
+        std::cout << v << " nao e primo supersticioso" << std::endl;
     }
 
-    if (isPerfectNumber(V)) {
-        std::cout << V << " é um número perfeito" << std::endl;
+    if (numeroPerfeito(v)) {
+        std::cout << v << " e um numero perfeito" << std::endl;
     } else {
-        std::cout << V << " não é um número perfeito" << std::endl;
+        std::cout << v << " nao e um numero perfeito" << std::endl;
     }
 
     return 0;

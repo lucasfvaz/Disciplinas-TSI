@@ -3,7 +3,7 @@
 
 #include "Biblioteca01.h"
 
-int isSuperstitiousPrime(int V);
-int isPerfectNumber(int V);
+int primoSuperticioso(int v);
+int numeroPerfeito(int v);
 
 #endif
