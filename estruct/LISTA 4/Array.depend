@@ -1,0 +1,36 @@
+# depslib dependency file v1.0
+1502415248 source:c:\_meus\temp\array\main.cpp
+	<iostream>
+	"Array.h"
+
+1502394502 c:\_meus\temp\array\array.h
+	<stdlib.h>
+
+1502375809 source:c:\_meus\temp\array\array.cpp
+	<stdlib.h>
+	"Array.h"
+
+1502415248 source:c:\_meus\edpo\array\main.cpp
+	<iostream>
+	"Array.h"
+
+1502394502 c:\_meus\edpo\array\array.h
+	<stdlib.h>
+
+1503060019 source:d:\_meus\disciplinas\edpo 2019 01\040 templates classes - array\main.cpp
+	<iostream>
+	"Array.h"
+
+1552413629 d:\_meus\disciplinas\edpo 2019 01\040 templates classes - array\array.h
+	<stdlib.h>
+
+1693775408 source:c:\users\lucas\downloads\040 templates classes - array\040 templates classes - array\main.cpp
+	<iostream>
+	"Array.h"
+	"Matriz2D.h"
+
+1693748162 c:\users\lucas\downloads\040 templates classes - array\040 templates classes - array\array.h
+	<stdlib.h>
+
+1693775253 c:\users\lucas\downloads\040 templates classes - array\040 templates classes - array\matriz2d.h
+

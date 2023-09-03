@@ -1,0 +1,14 @@
+1. O que são templates? Quais as possíveis alternativas de se criar templates em C++?
+R: Template é uma poderosa característica que permite a criação de código genérico, onde é possível escrever funções e classes que podem operar com diferentes tipos de dados sem precisar reescrever o código para cada tipo específico. Podemos criar dois tipos de templates o de função e o de classe, os de função permitem a criação de funções que podem operar com diferentes tipos de dados. Já os de classe permitem a criação de classes genéricas que podem ser parametrizadas com tipos de dados.
+
+2. Quais as vantagens e desvantagens em se utilizar templates?
+R: VANTAGENS: 
+	Reutilização de código: Essa pode ser considerada a principal vantagem dos templates, eles permitem escrever funções e classes genéricas.
+	Flexibilidade: Com o uso de templates o código fica mais flexível, onde é possível criar templates que funcionam com diferentes tipos de dados.
+	Desempenho: Na grande maioria dos casos o uso de templates pode resultar em um código de alto desempenho, porque o compilador pode otimizar as operações com base nos tipos passados como argumento.
+	Manutenção facilitada: Ao criar classes genéricas que são mais simples de manter, devido a mudanças que serão necessárias em apenas um local.
+DESVANTAGENS:
+	Complexidade: O uso de templates podem tornar o código mais complexo, a sintaxe pode acabar de tornando confusa em alguns casos, e os erros de compilação também tendem a serem mais complexos.
+	Maior tempo de compilação: O uso excessivo de templates pode aumentar bastante o tempo de compilação do código.
+	Incompatibilidade: Alguns compiladores implementam especificações que diferem um do outro, acarretando em problemas na portabilidade do código.
+
