@@ -4,12 +4,15 @@
 
 int main() {
     int v, k;
+    //solicita ao usuario o valor
     std::cout << "Digite o primeiro valor inteiro: ";
+    //armazena o valor em v
     std::cin >> v;
 
     std::cout << "Digite o segundo valor inteiro: ";
     std::cin >> k;
 
+    //verifica se v é multiplo de k
     if (multiplo(v, k)) {
         std::cout << v << " e multiplo de " << k << std::endl;
     } else {

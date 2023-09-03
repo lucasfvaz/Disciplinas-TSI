@@ -1,17 +1,17 @@
 # depslib dependency file v1.0
-1692739417 source:c:\xampp\htdocs\disciplinas-tsi\estruct\biblioteca\biblioteca01.cpp
+1692911205 source:c:\xampp\htdocs\disciplinas-tsi\estruct\biblioteca\biblioteca01.cpp
 	"Biblioteca01.h"
 	<cmath>
 
 1692739280 c:\xampp\htdocs\disciplinas-tsi\estruct\biblioteca\biblioteca01.h
 
-1692739403 source:c:\xampp\htdocs\disciplinas-tsi\estruct\biblioteca\biblioteca02.cpp
+1692739501 source:c:\xampp\htdocs\disciplinas-tsi\estruct\biblioteca\biblioteca02.cpp
 	"Biblioteca02.h"
 
-1692739403 c:\xampp\htdocs\disciplinas-tsi\estruct\biblioteca\biblioteca02.h
+1692739501 c:\xampp\htdocs\disciplinas-tsi\estruct\biblioteca\biblioteca02.h
 	"Biblioteca01.h"
 
-1692739280 source:c:\xampp\htdocs\disciplinas-tsi\estruct\biblioteca\main.cpp
+1692910990 source:c:\xampp\htdocs\disciplinas-tsi\estruct\biblioteca\main.cpp
 	<iostream>
 	"Biblioteca01.h"
 	"Biblioteca02.h"
